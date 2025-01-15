@@ -1,3 +1,24 @@
+body{
+    background-color: #2F2F2F;
+    color: white;
+    font-family: 'Inter';
+}
+
 section{
     max-width: 50%;
+    background-color: rgb(153, 198, 250, 0.5);
+    border-radius: 10px;
+
 }
+
+/* Rectangle 2 
+
+position: absolute;
+width: 568px;
+height: 479px;
+left: 121px;
+top: 484px;
+
+background: #99C6FA;
+opacity: 0.5;
+border-radius: 10px;*/
