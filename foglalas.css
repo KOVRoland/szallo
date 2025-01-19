@@ -17,3 +17,8 @@ label,input{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+img{
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
