@@ -1,3 +1,173 @@
-section{
-    max-width: 50%;
+.navbar {
+    background-color: rgba(153, 198, 250, 0.5);
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    max-width: 100%;
+    text-align: center;
+}
+.nav {
+    list-style-type: none;
+    display: inline;
+
+    padding-left: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.fejlec{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    background-image: url(kepek/fejlec.png);
+}
+.cim{
+    background-color: rgba(153, 198, 250, 0.5);
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    max-width: 25%;
+
+
+}
+.cim,.alcim{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.alcim{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+section {
+    width: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+h1,h2,p {
+    opacity: 1;
+}
+
+body {
+    background-color: #2F2F2F;
+    color: rgba(255, 255, 255, 1);
+    margin: 40px;
+    padding: 10px;
+    
+}
+ 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 40px;
+    padding: 10px;
+}
+.section1 {
+    max-width: 45%;
+    background-color: rgba(153, 198, 250, 0.5);
+    border-radius: 10px;
+    float: left;
+}
+
+.section2 {
+    max-width: 45%;
+    float: right;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.szobak {
+    max-width: 45%;
+    background-color: rgba(153, 198, 250, 0.5);
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.etterem {
+    max-width: 45%;
+    background-color: rgba(153, 198, 250, 0.5);
+    border-radius: 10px;
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.kolcsonzo {
+
+    max-width: 45%;
+    background-color: rgba(153, 198, 250, 0.5);
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.turavezetes {
+    max-width: 45%;
+    background-color: rgba(153, 198, 250, 0.5);
+    border-radius: 10px;
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 75%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.kep {
+
+    max-width: 100%;
+}
+
+.card {
+    max-width: 25%;
+    background-color: rgba(153, 198, 250, 0.5);
+    border-radius: 10px;
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+
+button {
+    background-color: rgba(47, 47, 47, 0.5);
+    color: white;
+    margin: auto;
+    display: block;
+}
+.foglalas{
+    background-color: rgba(153, 198, 250, 0.5);
+}
+
+footer {
+
+    text-align: center;
+    margin: auto;
+    display: block;
 }
