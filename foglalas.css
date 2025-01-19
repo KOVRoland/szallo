@@ -1,24 +1,56 @@
-body{
+body {
     background-color: #2F2F2F;
     color: rgba(255, 255, 255, 1);
     margin: 40px;
     padding: 10px;
 }
 
-main{
+main {
     background-color: rgba(153, 198, 250, 0.5);
     margin: auto;
     display: block;
     text-align: center;
     border-radius: 10px;
-    
+
 }
-label,input{
+
+label,
+input {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-img{
+
+img {
     max-width: 50%;
     margin: auto;
     display: block;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 20px;
+        
+        padding: 5px;
+        
+    }
+
+    main {
+        margin: 10px;
+        
+        padding: 15px;
+        
+        border-radius: 8px;
+       
+    }
+
+    img {
+        max-width: 80%;
+    }
+
+    label,
+    input {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
