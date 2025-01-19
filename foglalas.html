@@ -10,21 +10,24 @@
 
     <main>
         <h1>Foglalás</h1>
+        <img src="kepek/fejlec.png" alt="">
         <label for="">Hány személyes lakosztályt szeretne?</label>
-        <select name="" id="">
-            <option value="">2</option>
-            <option value="">4</option>
-            <option value="">6</option>
+        <select name="" id="szemelyszam">
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
         </select><br>
 
         <label for="">Hány napra szeretne foglalni?</label>
         <input type="number" name="" id="napok" min="1" max="30"><br>
 
         <label for="">Mikortól tart a foglalás?</label>
-        <input type="date" name="" id="kezdes">
+        <input type="date" name="" id="kezdes"><br>
 
-        <img src="kepek/fejlec.png" alt="">
+        <button type="button" onclick="Foglalas()">Foglalás</button>
+        
+        <h2 id="ar"> </h2>
     </main>
-    
+    <script src="j.js"></script>
 </body>
 </html>
